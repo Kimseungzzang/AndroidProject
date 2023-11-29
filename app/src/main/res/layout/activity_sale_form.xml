@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4ADE1"
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextPrice"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="물건이름"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="118dp"  android:background="@drawable/edit_text_background"
+        android:layout_height="37dp"
+        android:layout_above="@+id/editTextDescription"
+
+
+        android:layout_marginBottom="18dp"
+        android:hint="물건가격"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="316dp"
+        android:layout_height="328dp"
+        android:layout_above="@+id/buttonSubmit"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="물건설명"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="119dp"
+        android:text="등록"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="545dp" />
+</RelativeLayout>

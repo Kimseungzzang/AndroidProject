@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "91715205347",
+    "firebase_url": "https://androidstudio-cb52a-default-rtdb.firebaseio.com",
+    "project_id": "androidstudio-cb52a",
+    "storage_bucket": "androidstudio-cb52a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91715205347:android:4a4ef5ee2b68e5acafadd6",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvIeaz33oe5zkiKHT0jYWTaN-Hg_ISH30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

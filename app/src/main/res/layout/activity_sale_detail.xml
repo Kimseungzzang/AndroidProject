@@ -1,0 +1,75 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#A4ADE1"
+
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edit_text_background"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_alignEnd="@+id/textViewTitle"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="4dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="372dp"
+        android:layout_height="423dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_below="@id/textViewPrice"
+        android:layout_marginTop="25dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSeller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewDescription"
+        android:layout_alignBottom="@+id/textViewDescription"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="-57dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewSelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_alignBottom="@+id/textViewSeller"
+        android:layout_marginBottom="-2dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="-127dp"
+        android:text="Message" />
+
+    <!-- Add more TextViews or other UI elements for additional information -->
+
+</RelativeLayout>

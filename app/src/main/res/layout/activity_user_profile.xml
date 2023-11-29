@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_user_profile.xml -->
+<!-- res/layout/activity_user_profile.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4ADE1"
+
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UserProfileActivity">
+
+    <TextView
+        android:id="@+id/textViewUserId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:text="사용자 아이디: " />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그아웃" />
+
+    <Switch
+        android:id="@+id/checkSelling"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="판매중" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSaleList"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_text_background"
+        android:layout_height="423dp" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="176dp"
+        android:layout_height="61dp"
+        android:text="게시글 등록" />
+
+    <Button
+        android:id="@+id/buttonShowMessages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메시지 보기" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="한성마켓"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="34sp" />
+    <!-- Add other views as needed -->
+
+</LinearLayout>
