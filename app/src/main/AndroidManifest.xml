@@ -26,39 +26,25 @@
         <activity android:name=".UserProfileActivity" />
         <activity
             android:name=".CrePostActivity"
-            android:parentActivityName=".UserProfileActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UserProfileActivity" />
+          >
         </activity>
         <activity
             android:name=".SaleItemChangeActivity"
-            android:parentActivityName=".UserProfileActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UserProfileActivity" />
+           >
         </activity>
 
         <activity
             android:name=".SaleItemDetailActivity"
-            android:parentActivityName=".UserProfileActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UserProfileActivity" />
+            >
         </activity>
         <activity
             android:name=".SendMessageActivity"
-            android:parentActivityName=".UserProfileActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UserProfileActivity" />
+            >
+
         </activity>
         <activity
             android:name=".ReceivedMessagesActivity"
-            android:parentActivityName=".UserProfileActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UserProfileActivity" />
+       >
         </activity>
 
 

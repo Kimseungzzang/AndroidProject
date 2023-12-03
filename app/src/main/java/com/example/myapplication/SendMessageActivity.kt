@@ -38,15 +38,7 @@ class SendMessageActivity : AppCompatActivity() {
     }
 
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            android.R.id.home -> {
-                onBackPressed() // 뒤로가기 버튼 클릭 시 기존의 뒤로가기 동작 수행
-                return true
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
+
 
 
 

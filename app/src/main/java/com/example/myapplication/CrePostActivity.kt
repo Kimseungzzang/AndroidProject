@@ -42,19 +42,11 @@ class CrePostActivity : AppCompatActivity() {
                 Toast.makeText(this, "사용자 ID를 가져올 수 없습니다.", Toast.LENGTH_SHORT).show()
             }
         }
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
 
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            android.R.id.home -> {
-                onBackPressed() // 뒤로가기 버튼 클릭 시 기존의 뒤로가기 동작 수행
-                return true
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
+
 
     private fun submitSaleItem(userId: String,currentUserId:String) {
         val title = titleEditText.text.toString().trim()
